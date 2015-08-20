@@ -1,0 +1,34 @@
+Reflections_lesson1
+
+1) How did viewing a diff between two versions help you spot the bug?
+
+Since there was a comparison between a working and a non-working code, 
+spotting the bug would be easy if I could have all the differences of the 
+code in the two files.
+-------------------------
+2) How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+The history of the file is also a history of the code effort put on this specific programming task. It is a history of all the solutions I have come up with to all the problems which I have faced. Keeping track of the actions I have taken in order to solve specific problems, helps me remember problem solving techniques and also evaluate their efficacy.
+--------------------------
+3) What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Starting with the cons, the bisgest con is that I might forget to commit long after I have introduced many and significant changes to my code.
+The pros, include the protection against commits on unusable state of code (p.e. in the middle of a line) along with the ability to decide on my own if the changes constitute a logical unit that needs to be saved seperately, making the history more comprehedable.
+----------------------------
+4) Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Because Git is built to support code version control and code is bundled into projects or repositories, i.e. groups of files that are related and are very likely to be itredependent.
+-----------------------------
+5) How can you use the commands git log and git diff to view the history of files?
+
+Using 'git log' I can get the id of the commit which has the comment that matches my sarch criteria. By getting this id and using it in 'grit diff' along with the id of another commit with which I wish to compare, I can compare the two different commits.
+-----------------------------
+6) How might using version control make you more confident to make changes that could break something?
+
+Since the version control system keeps track of all interdependent changes in all code files, 
+restoring a previous version is safe, allowing the programmer to trace bugs that were introduced in later versions of the code.
+------------------------------
+7) Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to try it to write code and keep different versions of it as I progress.
+
