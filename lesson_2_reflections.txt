@@ -20,3 +20,9 @@ logically related changes. I then apply these changes into a coherent commit.
 There might be a situation where we would like to develop an experimental version of our program, or some other
 where we would like to have the program developed for a different language. Creatin a separate branch for each
 of these cases, would make sure that we keep the different development directions and objectives safely separated.
+------------------------------
+5) How do the diagrams help you visualize the branch structure?
+
+Since each commit in the diagram is shown in a parent-child relationship for every branch, it is easy
+for the programmer to keep track of his coding history. Unreachable commits are a special case which
+can be both useful and risky as well, depending on what use one makes of them.
