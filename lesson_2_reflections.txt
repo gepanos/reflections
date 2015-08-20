@@ -9,3 +9,8 @@ The staging area is a logical area into which files to be commited are held, whe
 physical space into which the repository is held along with all the files, tracked by git for changes or not tracked.
 The value it offers, is related to the ability that is provided to the user to seperate commits on groups of specific files
 which are logicaly related.
+-----------------------------
+3) How can you use the staging area to make sure you have one commit per logical change?
+
+I use git add to put into the staging area all the files which contain
+logically related changes. I then apply these changes into a coherent commit.
