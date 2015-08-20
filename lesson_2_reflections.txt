@@ -14,3 +14,9 @@ which are logicaly related.
 
 I use git add to put into the staging area all the files which contain
 logically related changes. I then apply these changes into a coherent commit.
+-----------------------------
+4) What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+There might be a situation where we would like to develop an experimental version of our program, or some other
+where we would like to have the program developed for a different language. Creatin a separate branch for each
+of these cases, would make sure that we keep the different development directions and objectives safely separated.
