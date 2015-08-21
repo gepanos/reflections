@@ -26,3 +26,12 @@ of these cases, would make sure that we keep the different development direction
 Since each commit in the diagram is shown in a parent-child relationship for every branch, it is easy
 for the programmer to keep track of his coding history. Unreachable commits are a special case which
 can be both useful and risky as well, depending on what use one makes of them.
+------------------------------
+6) What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result of merging would be that all previous commits of both branches would be merged into one.
+------------------------------
+7)What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging saves us from a lot of effort and trouble in spotting the parts of the code
+that can be safely merged.
