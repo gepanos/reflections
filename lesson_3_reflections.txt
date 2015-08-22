@@ -7,3 +7,10 @@ When I will be working either from different computers, or with other people or 
 Automatically updating with the remote repository would have the risk
 that changes made by another perosn working on the same file could be
 transfered to my computer, without me having checked them first.
+---------------------------
+3) Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+The fork operates only on repositories held in GitHub. It actually clones a repository inside GitHub servers.
+Clone can either copy a repository to another spot within the same computer (local clone), or it can also clone
+a GitHub repository to the local computer. Branch is an operation that relates to a specific repository and it can
+either be made on a local or a remote repository.
