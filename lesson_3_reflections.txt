@@ -14,3 +14,7 @@ The fork operates only on repositories held in GitHub. It actually clones a repo
 Clone can either copy a repository to another spot within the same computer (local clone), or it can also clone
 a GitHub repository to the local computer. Branch is an operation that relates to a specific repository and it can
 either be made on a local or a remote repository.
+---------------------------
+4) What is the benefit of having a copy of the last known state of the remote stored locally?
+By havin this copy we can work offline with re remote copy and resync when we get back online, after
+checking the changes that might have been made in the meanwhile.
