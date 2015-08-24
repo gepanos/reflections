@@ -16,5 +16,16 @@ a GitHub repository to the local computer. Branch is an operation that relates t
 either be made on a local or a remote repository.
 ---------------------------
 4) What is the benefit of having a copy of the last known state of the remote stored locally?
+
 By havin this copy we can work offline with re remote copy and resync when we get back online, after
 checking the changes that might have been made in the meanwhile.
+----------------------------
+5) How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+We would probably use e-mail or some sort of shared files scheme. Things
+woul be much harder than using git, since the process wouldn't be
+monitored by a machine but by humans and humans tend to forget and also
+make mistakes. Using git, we could use the branching feature of git's
+repositories, along with the merging and pulling features which would
+allow changes made by different collaborators to be examined by everyone
+involved.
