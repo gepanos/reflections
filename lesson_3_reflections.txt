@@ -29,3 +29,12 @@ make mistakes. Using git, we could use the branching feature of git's
 repositories, along with the merging and pulling features which would
 allow changes made by different collaborators to be examined by everyone
 involved.
+-----------------------------
+6) When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+I would use a separate branch if I want to add a new feature, or if I want to experiment with the code in order to optimize it.
+Working directly on the master has the benefit of easily pulling and pushing the code, as long as there is no need for alternative
+coding directions (extra features, optimization) or as long as the possible collaborators have aggreed on a robust, error-free way
+of communicating changes between one another. However, since such an efficient way does not exist out of a computerized version checking system,
+using Git's branching technique, alonh with GitHub's pulling option, allows coders to try new versions of the code and ask for their
+collaborators' opininions befor actually merging these changes into the main, quality code.
